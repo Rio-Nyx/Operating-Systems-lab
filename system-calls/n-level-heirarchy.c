@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+
+// n-level hierarchy of processes
+
+>>>>>>> 1730dfb6c8371d91f5fb9d15b2ea05a50ee5a31b
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>

@@ -1,7 +1,21 @@
+<<<<<<< HEAD
+=======
+/*       A
+ *    B    C 
+ *  D E F    G 
+ *  H
+ *  I
+ * */
+
+>>>>>>> 1730dfb6c8371d91f5fb9d15b2ea05a50ee5a31b
 #include <stdio.h>
 #include <unistd.h>
 #include <stdlib.h>
 #include <sys/types.h>
+<<<<<<< HEAD
+=======
+#include <sys/wait.h>
+>>>>>>> 1730dfb6c8371d91f5fb9d15b2ea05a50ee5a31b
 
 void print(char c){
     printf("%c Child id: %d and Parent id: %d\n",c,getpid(),getppid());
@@ -68,7 +82,11 @@ void process_tree(){
         }
     }
     for(int i=0; i<3; i++) 
+<<<<<<< HEAD
    wait(NULL); 
+=======
+       wait(NULL); 
+>>>>>>> 1730dfb6c8371d91f5fb9d15b2ea05a50ee5a31b
 }
 
 int main(){
