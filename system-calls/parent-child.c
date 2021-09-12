@@ -1,14 +1,11 @@
 #include <stdio.h>
 #include <unistd.h>
-<<<<<<< HEAD
-=======
 
 /*
  * program that print n fibonacci numbers as child process
  * and n prime numbers as parent process
  * */
 
->>>>>>> 1730dfb6c8371d91f5fb9d15b2ea05a50ee5a31b
 void child(int n){
     int a,b;
     a=0;b=1;
