@@ -1,3 +1,8 @@
+/*
+ producer consumer using seamaphores
+ decrementing values is done by wait() and incrementing values are given by signal()
+*/
+
 #include  <stdio.h>
 
 int mutex=1;
