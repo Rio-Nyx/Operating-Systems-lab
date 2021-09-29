@@ -3,7 +3,7 @@
 # include <stdlib.h>
 # include <sys/shm.h>
 # include <sys/ipc.h>
-# include <semaphore.h>
+/** # include <semaphore.h> */
 
 
 int main(){
